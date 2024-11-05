@@ -1,4 +1,4 @@
-# 📊 Facebook Data Extraction Project
+# 📊 Data Extraction Project
 
 Welcome to the **Data Extraction** project. This project is developed in **Python** and enables effective and efficient extraction of public data from Facebook using its API, along with customer and lead data from HubSpot API. The goal is to store and process this information for analysis and detailed report generation, supporting comprehensive insights for social media and client management.
 
