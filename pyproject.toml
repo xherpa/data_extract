@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "data-extract"
+version = "0.1.0"
+description = "This application is meticulously designed to extract data from Facebook and HubSpot through an API. The extracted data is subsequently stored in a database and undergoes processing to generate a comprehensive report. The programming language employed for its development is Python."
+authors = ["AxierPer <axierperlaz2018@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Flask = "^3.0.3"
+pendulum = "^3.0.0"
+hubspot-api-client = "^10.0.0"
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
