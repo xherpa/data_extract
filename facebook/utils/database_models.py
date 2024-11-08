@@ -50,8 +50,6 @@ class Facebook_adset_data(Base):
     date_start = Column(Date, index =  True)
     date_stop = Column(Date, index = True, primary_key = True)
 
-    def __repr__(self) -> str:
-        return f"Data added successfully adset_id: {self.ad_id} with date: {self.date_start} and {self.date_stop}"
 
 # -----------------------------------------------------------------------------------
 
