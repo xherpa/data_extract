@@ -41,7 +41,6 @@ def extract_adset_data (date_start, date_stop):
             # Read JSON and convert to Data Frame
             adsets = pd.json_normalize(data_insert)
             df = pd.DataFrame(adsets)
-            print(df)
             df_not_na = df.fillna(0)
             data_dict = df_not_na.to_dict(orient="records")
             print(json.dumps(data_dict, indent=4))
